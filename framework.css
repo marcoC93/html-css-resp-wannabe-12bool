@@ -108,7 +108,8 @@ a {
 
 /* Creiamo le clasi per le colonne del layout "tablet" */
 
-@media screen and (min-with: 480px) {
+@media screen and (min-width: 768px )
+{
 
 .col-md-1 {
     width: calc(100% / 12);
@@ -147,6 +148,7 @@ a {
 .col-md-12 {
     width: calc((100% / 12) * 12);
 }
+
 /*  Creiamo i vari offset */
 
 .col-md-offset-0 {
@@ -189,7 +191,7 @@ a {
 }
     /* Creiamo le classi per il layout "desktop"  */
 
-@media screen and (min-with:778px) {
+@media screen and (min-width:992px) {
 
 .col-lg-1 {
         width: calc(100% / 12);
